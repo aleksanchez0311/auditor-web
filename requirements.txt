@@ -1,3 +1,2 @@
-flask==2.3.3
-gunicorn==21.2.0
-psycopg2-binary==2.9.7  # Para PostgreSQL
+Flask==2.3.3
+firebase-admin==6.2.0
