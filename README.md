@@ -1,22 +1,22 @@
-# Hamburguesas La Cumbre - Online Ordering System
+# Hamburguesas La Cumbre - Sistema de Pedidos en Línea
 
-A web application for a hamburger restaurant that allows customers to browse the menu and place orders online.
+Una aplicación web para un restaurante de hamburguesas que permite a los clientes navegar por el menú y realizar pedidos en línea.
 
-## 🍔 Project Overview
+## 🍔 Descripción General del Proyecto
 
-This application consists of:
-- A **Flask backend** that serves product data and processes orders
-- A **Firebase-hosted frontend** that provides a user-friendly interface for customers
-- **Firestore database** for storing product information and customer orders
+Esta aplicación consiste en:
+- Un **backend en Flask** que sirve datos de productos y procesa pedidos
+- Un **frontend alojado en Firebase** que proporciona una interfaz amigable para los clientes
+- **Base de datos Firestore** para almacenar información de productos y pedidos de clientes
 
-## 🚀 Features
+## 🚀 Características
 
-- Browse restaurant menu and product listings
-- Add items to cart
-- Submit orders through a simple interface
-- Real-time data synchronization with Firebase
+- Navegar por el menú del restaurante y listados de productos
+- Añadir artículos al carrito
+- Enviar pedidos a través de una interfaz sencilla
+- Sincronización de datos en tiempo real con Firebase
 
-## 🛠️ Technology Stack
+## 🛠️ Stack Tecnológico
 
 ### Backend
 - Python 3.x
@@ -25,105 +25,105 @@ This application consists of:
 
 ### Frontend
 - HTML/CSS/JavaScript
-- Firebase SDK 12.1.0 (Authentication, Firestore, Hosting)
+- Firebase SDK 12.1.0 (Autenticación, Firestore, Hosting)
 
-### Infrastructure
+### Infraestructura
 - Firebase Hosting
-- Firestore Database
-- GitHub Actions for CI/CD
+- Base de datos Firestore
+- GitHub Actions para CI/CD
 
-## 📋 Prerequisites
+## 📋 Requisitos Previos
 
 - Python 3.x
-- Node.js and npm
-- Firebase CLI (for deployment)
-- Firebase project with Firestore enabled
+- Node.js y npm
+- Firebase CLI (para despliegue)
+- Proyecto Firebase con Firestore habilitado
 
-## 🔧 Installation & Setup
+## 🔧 Instalación y Configuración
 
-### Backend Setup
+### Configuración del Backend
 
-1. Clone the repository:
+1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/yourusername/auditor-web.git
+   git clone https://github.com/tunombre/auditor-web.git
    cd auditor-web
    ```
 
-2. Install Python dependencies:
+2. Instalar dependencias de Python:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Configure Firebase credentials:
-   - Create a service account key in Firebase console
-   - Update the path in `src/backend/app.py` to point to your service account key
+3. Configurar credenciales de Firebase:
+   - Crear una clave de cuenta de servicio en la consola de Firebase
+   - Actualizar la ruta en `src/backend/app.py` para que apunte a tu clave de cuenta de servicio
 
-4. Run the Flask server:
+4. Ejecutar el servidor Flask:
    ```bash
    python src/backend/app.py
    ```
 
-### Frontend Setup
+### Configuración del Frontend
 
-1. Navigate to the frontend directory:
+1. Navegar al directorio frontend:
    ```bash
    cd src/frontend
    ```
 
-2. Install dependencies (if needed):
+2. Instalar dependencias (si es necesario):
    ```bash
    npm install
    ```
 
-3. Build the frontend:
+3. Construir el frontend:
    ```bash
    npm run build
    ```
 
-## 🚀 Deployment
+## 🚀 Despliegue
 
-### Firebase Deployment
+### Despliegue en Firebase
 
-1. Install Firebase CLI:
+1. Instalar Firebase CLI:
    ```bash
    npm install -g firebase-tools
    ```
 
-2. Login to Firebase:
+2. Iniciar sesión en Firebase:
    ```bash
    firebase login
    ```
 
-3. Deploy to Firebase:
+3. Desplegar en Firebase:
    ```bash
    firebase deploy
    ```
 
 ## 🔄 CI/CD
 
-This project uses GitHub Actions for continuous deployment:
-- Pull requests trigger automatic deployment previews
-- Configuration is in `.github/workflows/firebase-hosting-pull-request.yml`
+Este proyecto utiliza GitHub Actions para despliegue continuo:
+- Las pull requests activan vistas previas de despliegue automáticas
+- La configuración está en `.github/workflows/firebase-hosting-pull-request.yml`
 
-## 📝 API Endpoints
+## 📝 Endpoints de la API
 
-- `GET /productos`: Retrieve the list of available products
-- `POST /pedido`: Submit a new order
+- `GET /productos`: Obtener la lista de productos disponibles
+- `POST /pedido`: Enviar un nuevo pedido
 
-## 👥 Contributing
+## 👥 Contribuir
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+1. Haz un fork del repositorio
+2. Crea tu rama de características (`git checkout -b feature/caracteristica-increible`)
+3. Haz commit de tus cambios (`git commit -m 'Añadir alguna característica increíble'`)
+4. Haz push a la rama (`git push origin feature/caracteristica-increible`)
+5. Abre una Pull Request
 
-## 📄 License
+## 📄 Licencia
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+Este proyecto está licenciado bajo la Licencia MIT - ver el archivo LICENSE para más detalles.
 
-## 📞 Contact
+## 📞 Contacto
 
-Your Name - your.email@example.com
+Tu Nombre - tu.email@ejemplo.com
 
-Project Link: [https://github.com/yourusername/auditor-web](https://github.com/yourusername/auditor-web)
+Enlace del Proyecto: [https://github.com/tunombre/auditor-web](https://github.com/tunombre/auditor-web)
